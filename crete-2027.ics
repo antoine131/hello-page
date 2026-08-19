@@ -1,0 +1,119 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BOB//Crete Trip 2027//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Crète 2027
+X-WR-TIMEZONE:Europe/Paris
+
+=== VOL ALLER ===
+BEGIN:VEVENT
+UID:crete-flight-out@bob
+DTSTART:20270304T063000Z
+DTEND:20270304T105500Z
+SUMMARY:✈️ Vol Paris Orly → La Canée (Transavia)
+DESCRIPTION:Départ 06h30 Orly - Arrivée 10h55 La Canée (CHQ). Famille : Antoine + femme + Chloé + Elena.
+LOCATION:Paris Orly (ORY) → Chania (CHQ)
+TRANSP:OPAQUE
+END:VEVENT
+
+=== JOUR 1 - Arrivée ===
+BEGIN:VEVENT
+UID:crete-day1@bob
+DTSTART:20270304T110000Z
+DTEND:20270304T220000Z
+SUMMARY:🌊 Jour 1 - Arrivée à Almyrida
+DESCRIPTION:Arrivée à l'aéroport → Retrait voiture (DiscoverCars) → Installation à l'Almyrida Resort → Dîner au Lagos Taverna (beef stifado recommandé).
+LOCATION:Almyrida, Apokoronas, Crète
+TRANSP:OPAQUE
+END:VEVENT
+
+=== JOUR 2 - La Canée ===
+BEGIN:VEVENT
+UID:crete-day2@bob
+DTSTART:20270305T090000Z
+DTEND:20270305T220000Z
+SUMMARY:🏛️ Jour 2 - La Canée
+DESCRIPTION:Visite du port vénitien de La Canée. Déjeuner au Tamam (mezze). Dîner au Psaros (portions XXL).
+LOCATION:La Canée (Chania), Crète
+TRANSP:OPAQUE
+END:VEVENT
+
+=== JOUR 3 - Balos + Gramvousa ===
+BEGIN:VEVENT
+UID:crete-day3@bob
+DTSTART:20270306T080000Z
+DTEND:20270306T180000Z
+SUMMARY:🏝️ Jour 3 - Balos & Gramvousa
+DESCRIPTION:Excursion en bateau pirate vers Balos et Gramvousa. Lagon turquoise, eaux peu profondes. Parfait pour Chloé et Elena !
+LOCATION:Balos, Crète
+TRANSP:OPAQUE
+END:VEVENT
+
+=== JOUR 4 - Elafonissi ===
+BEGIN:VEVENT
+UID:crete-day4@bob
+DTSTART:20270307T090000Z
+DTEND:20270307T180000Z
+SUMMARY:🌸 Jour 4 - Elafonissi (plage rose)
+DESCRIPTION:Journée à la plage d'Elafonissi - eau rose, peu profonde, idéale pour les enfants.
+LOCATION:Elafonissi, Crète
+TRANSP:OPAQUE
+END:VEVENT
+
+=== JOUR 5 - Rethymnon ===
+BEGIN:VEVENT
+UID:crete-day5@bob
+DTSTART:20270308T090000Z
+DTEND:20270308T220000Z
+SUMMARY:🏛️ Jour 5 - Rethymnon & Aptera
+DESCRIPTION:Visite de Rethymnon + site antique d'Aptera. Dîner de clôture au Thalami (poisson grillé).
+LOCATION:Rethymnon, Crète
+TRANSP:OPAQUE
+END:VEVENT
+
+=== JOUR 6 - Départ ===
+BEGIN:VEVENT
+UID:crete-day6@bob
+DTSTART:20270309T090000Z
+DTEND:20270309T170000Z
+SUMMARY:🌅 Jour 6 - Dernière baignade & Départ
+DESCRIPTION:Dernière baignade. Départ pour l'aéroport à 17h00.
+LOCATION:Almyrida, Crète
+TRANSP:OPAQUE
+END:VEVENT
+
+=== VOL RETOUR ===
+BEGIN:VEVENT
+UID:crete-flight-return@bob
+DTSTART:20270309T172500Z
+DTEND:20270309T221000Z
+SUMMARY:✈️ Vol La Canée → Paris Orly (Transavia)
+DESCRIPTION:Départ 19h25 La Canée (CHQ) - Arrivée 22h10 Paris Orly. Être à l'aéroport à 17h00.
+LOCATION:Chania (CHQ) → Paris Orly (ORY)
+TRANSP:OPAQUE
+END:VEVENT
+
+=== HÔTEL ===
+BEGIN:VEVENT
+UID:crete-hotel@bob
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270310
+SUMMARY:🏨 Almyrida Resort (B&B)
+DESCRIPTION:Réservé ! Almyrida, Apokoronas. Formule petit-déjeuner inclus. 6 nuits (mar 4 → dim 9 mars).
+LOCATION:Almyrida Resort, Apokoronas, Crète
+TRANSP:TRANSPARENT
+END:VEVENT
+
+=== VOITURE ===
+BEGIN:VEVENT
+UID:crete-car@bob
+DTSTART:20270304T110000Z
+DTEND:20270304T113000Z
+SUMMARY:🚗 Retrait voiture à l'aéroport CHQ
+DESCRIPTION:À réserver via DiscoverCars - catégorie intermédiaire. Retrait à l'aéroport de La Canée (CHQ).
+LOCATION:Aéroport de La Canée (CHQ)
+TRANSP:OPAQUE
+END:VEVENT
+
+END:VCALENDAR
