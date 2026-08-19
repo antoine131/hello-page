@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 24px;
+      padding: 4rem 6rem;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.6);
+    }
+    h1 {
+      font-size: 5rem;
+      font-weight: 700;
+      color: #f8fafc;
+      letter-spacing: -0.02em;
+      user-select: none;
+    }
+    .hello {
+      display: inline-block;
+      background: linear-gradient(135deg, #60a5fa, #a78bfa);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .sub {
+      margin-top: 0.75rem;
+      font-size: 1rem;
+      color: #94a3b8;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1><span class="hello">Hello</span></h1>
+    <p class="sub">Bienvenue</p>
+  </div>
+</body>
+</html>
